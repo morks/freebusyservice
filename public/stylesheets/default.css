@@ -1,0 +1,28 @@
+/*
+                     Defaults
+*/
+
+root { 
+    display: block;
+}
+
+html { background-color: #090934;
+}
+
+body {}
+
+* {}
+
+/*
+                     Wrapper
+*/
+
+div.wrapper {  width: 900px;
+               margin: auto;
+               padding: 10px;
+}
+
+div.bodywrapper {
+    width: 690px;
+}
+
