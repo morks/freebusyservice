@@ -17,3 +17,881 @@ Migrating to CreateCustomers (20101228155306)
   [4;35;1mSQL (15.9ms)[0m   [0mSHOW FIELDS FROM `customers`[0m
   [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `customers`[0m
   [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `customers`[0m
+  [4;36;1mSQL (19.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (10.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#index (for 127.0.0.1 at 2010-12-29 19:57:20) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: main):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 19:57:47) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 53ms (View: 51, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 19:58:20) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 19:58:46) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 19:58:54) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:00:37) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 95ms (View: 94, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:02:14) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:04:34) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:05:12) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (2.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:05:31) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 8ms (View: 6, DB: 4) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (4.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:05:58) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 26ms (View: 20, DB: 4) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:06:18) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:06:28) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:07:38) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:07:43) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:05) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:14) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:19) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 134ms (View: 14, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:22) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:33) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:43) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:48) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:08:53) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:09:19) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 116ms (View: 115, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:09:31) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 12ms (View: 11, DB: 1) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:09:36) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:11:17) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:11:35) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:11:53) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 21ms (View: 12, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:12:32) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 91ms (View: 90, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-29 20:12:57) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#getlogin (for 127.0.0.1 at 2010-12-29 20:13:02) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"MmIv2uZWL1S3nWp86mO/2jOynoaVZBytw1evaQxTYLs=", "pass"=>"admin", "login"=>"admin"}
+
+ActionController::UnknownAction (No action responded to getlogin. Actions: main):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (43.9ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (140.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-31 16:15:01) [GET]
+
+ActionController::RoutingError (No route matches "/frontpage/twitter" with {:method=>:get}):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-31 16:15:15) [GET]
+
+ActionController::RoutingError (No route matches "/frontpage/twitter" with {:method=>:get}):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:15:47) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 118ms (View: 117, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:17:44) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#getlogin (for 127.0.0.1 at 2010-12-31 16:24:39) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+
+ActionController::UnknownAction (No action responded to getlogin. Actions: login and main):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-12-31 16:25:15) [GET]
+
+ActionController::RoutingError (No route matches "/frontpage/twitter" with {:method=>:get}):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:25:18) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 116ms (View: 114, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:25:20) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+
+ActionView::MissingTemplate (Missing template app/login.erb in view path app/views):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:25:45) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:25:45) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:25:46) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+
+ActionView::MissingTemplate (Missing template app/login.erb in view path app/views):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:26:17) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:26:18) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:26:18) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:26:20) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:26:20) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:26:46) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:26:47) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:26:47) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:27:40) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:27:40) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:27:41) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:27:41) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:29:18) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:29:19) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:29:19) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#login (for 127.0.0.1 at 2010-12-31 16:29:21) [POST]
+  Parameters: {"commit"=>"Login", "authenticity_token"=>"AaIIJ3JbBOyXnvkqzr1iTkGwtVs/pVQwb66L1ns7ZPQ=", "pass"=>"admin", "login"=>"admin"}
+Redirected to http://localhost:3000/app/main
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/app/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:29:21) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 122ms (View: 118, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:42:13) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:42:49) [GET]
+
+ActionController::UnknownAction (No action responded to register. Actions: login and main):
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib64/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib64/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib64/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib64/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib64/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:44:13) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:45:08) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:45:43) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:47:07) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 93ms (View: 92, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:47:09) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:47:09) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:49:17) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:49:18) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#main (for 127.0.0.1 at 2010-12-31 16:53:12) [GET]
+Rendering template within layouts/app
+Rendering app/main
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/app/main]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:53:12) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:53:50) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:53:50) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:53:51) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:54:06) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:54:06) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:54:09) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:54:11) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:54:38) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 132ms (View: 3, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:54:39) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:55:36) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 12ms (View: 8, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:55:37) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 20ms (View: 11, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:55:40) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:55:41) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:55:41) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 169ms (View: 4, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:56:06) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:56:53) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:56:59) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 9ms (View: 5, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 16:57:01) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 8ms (View: 4, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 17:00:37) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 17:01:53) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 64ms (View: 60, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing AppController#register (for 127.0.0.1 at 2010-12-31 17:04:04) [GET]
+Rendering template within layouts/app
+Rendering app/register
+Completed in 17ms (View: 13, DB: 0) | 200 OK [http://localhost/app/register]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (165.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (52.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCustomers (20101228155306)
+  [4;36;1mSQL (202.7ms)[0m   [0;1mDROP TABLE `customers`[0m
+  [4;35;1mSQL (129.6ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20101228155306'[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCustomers (20101228155306)
+  [4;36;1mSQL (394.0ms)[0m   [0;1mCREATE TABLE `customers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `Firstname` varchar(255), `Lastname` varchar(255), `Nick` varchar(255), `LoginName` varchar(255), `Password` varchar(255), `Email` varchar(255), `Token` varchar(255), `AuthKey` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (191.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20101228155306')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (46.9ms)[0m   [0mSHOW FIELDS FROM `customers`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `customers`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `customers`[0m

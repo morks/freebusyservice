@@ -1,0 +1,59 @@
+<div class="sitewrapper">
+
+  <% form_tag :action => "newcustomer" do %>
+
+    <table class="invisible">
+      <tr>
+        <td>
+          Your Unique Token:
+        </td>
+        <td>
+          <%= label :token, @mytoken %>
+          <%= hidden_field_tag :token, @mytoken %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= label :firstname, "Vorname:" %>
+        </td>
+        <td>
+          <%= text_field_tag :firstname %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= label :lastname, "Nachname:" %>
+        </td>
+        <td>
+          <%= text_field_tag :lastname %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= label :mail, "Email:" %>
+        </td>
+        <td>
+          <%= text_field_tag :mail %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= label :login, "Benutzername:" %>
+        </td>
+        <td>
+          <%= text_field_tag :login %>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <%= label :pass, "Passwort:" %>
+        </td>
+        <td>
+          <%= password_field_tag  :pass %>
+        </td>
+      </tr>
+    </table>
+
+    <%= submit_tag "Registrieren" %>
+  <% end %>
+</div>

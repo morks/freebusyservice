@@ -7,6 +7,8 @@ class CreateCustomers < ActiveRecord::Migration
       t.column "LoginName", :string
       t.column "Password", :string
       t.column "Email", :string
+      t.column "Token", :string
+      t.column "AuthKey", :string
       t.timestamps
     end
   end

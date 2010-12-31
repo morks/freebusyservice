@@ -6,7 +6,7 @@ root {
     display: block;
 }
 
-html { background-color: #090934;
+html { 
 }
 
 body {}
@@ -17,12 +17,36 @@ body {}
                      Wrapper
 */
 
-div.wrapper {  width: 900px;
+div.wrapper {  width: 100%;
                margin: auto;
                padding: 10px;
 }
 
-div.bodywrapper {
-    width: 690px;
+div.loginwrapper {
+    text-align: center;
 }
 
+div.sitewrapper {
+    text-align: left;
+}
+
+table.login {
+    text-align: right;
+    margin: auto;
+    width: 300px;
+}
+
+/*
+                     Link
+*/
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: red;
+}

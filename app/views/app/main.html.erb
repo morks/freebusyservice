@@ -1,4 +1,30 @@
-
+<div class="loginwrapper">
+    <% form_tag :action => "login" do %>
+   LOGIN
+   <br /><br />
+  <table class="login">
+    <tr>
+      <td>
+        <%= label :login, "Benutzername:" %>
+      </td>
+      <td>
+        <%= text_field_tag :login %>
+      </td>
+    </tr>
+        <tr>
+      <td>
+    <%= label :pass, "Passwort:" %>
+      </td>
+      <td>
+    <%= password_field_tag  :pass %>
+      </td>
+    </tr>
+  </table>
+   <br />
+    <%= submit_tag "Login" %>
+  <% end %>
+   <%= link_to "Registrieren", {:action => "register"} , :class => "link" %>
+</div>
 
 
 

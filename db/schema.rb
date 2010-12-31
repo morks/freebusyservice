@@ -18,6 +18,8 @@ ActiveRecord::Schema.define(:version => 20101228155306) do
     t.string   "LoginName"
     t.string   "Password"
     t.string   "Email"
+    t.string   "Token"
+    t.string   "AuthKey"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
